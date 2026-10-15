@@ -1,0 +1,11 @@
+# Agent dependencies.
+# Comments here are ASCII on purpose: pip reads this file with the system
+# code page, so Cyrillic comments break "pip install" on Windows.
+
+openai>=1.60          # Chat Completions + function calling
+requests>=2.31        # HTTP requests to weather, rates and geocoding APIs
+ddgs>=9.0             # DuckDuckGo search (successor of duckduckgo-search)
+python-dotenv>=1.0    # reads the API key from .env
+
+# No frameworks, no databases: the whole agent loop lives in agent.py.
+# Tested on Python 3.13.

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "created_at": "2026-10-15T12:00:00",
+  "updated_at": "2026-10-15T12:00:41",
+  "sessions": [
+    {
+      "id": 1,
+      "started_at": "2026-10-15T12:00:00",
+      "ended_at": "2026-10-15T12:00:41",
+      "turns": 4,
+      "messages": [
+        {
+          "role": "user",
+          "content": "какая погода в Москве",
+          "timestamp": "2026-10-15T12:00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Погода (источник: open-meteo.com): Москва, Россия: 7°C, небольшой дождь, ветер 8 км/ч; влажность 80%, ощущается как 5°C; прогноз: 2026-10-15 от 4 до 9°C, 2026-10-16 от 5 до 10°C",
+          "timestamp": "2026-10-15T12:00:00",
+          "tools_used": [
+            "get_weather"
+          ]
+        },
+        {
+          "role": "user",
+          "content": "какая погода в Казани",
+          "timestamp": "2026-10-15T12:00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Погода (источник: open-meteo.com): Казань, Россия: 7°C, небольшой дождь, ветер 8 км/ч; влажность 80%, ощущается как 5°C; прогноз: 2026-10-15 от 4 до 9°C, 2026-10-16 от 5 до 10°C",
+          "timestamp": "2026-10-15T12:00:00",
+          "tools_used": [
+            "get_weather"
+          ]
+        },
+        {
+          "role": "user",
+          "content": "сколько стоит bitcoin в долларах",
+          "timestamp": "2026-10-15T12:00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "bitcoin = 80426.0 USD (источник: CoinGecko)",
+          "timestamp": "2026-10-15T12:00:00",
+          "tools_used": [
+            "get_crypto_price"
+          ]
+        },
+        {
+          "role": "user",
+          "content": "посчитай (2+3)*sqrt(16)",
+          "timestamp": "2026-10-15T12:00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "(2+3)*sqrt(16) = 20.0",
+          "timestamp": "2026-10-15T12:00:00",
+          "tools_used": [
+            "calculate"
+          ]
+        }
+      ]
+    }
+  ]
+}

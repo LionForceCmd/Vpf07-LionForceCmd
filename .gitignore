@@ -1,0 +1,21 @@
+# Секреты
+.env
+
+# Долговременная память агента — своя история у каждого запуска.
+# Формат файла показан в memory.example.json.
+memory.json
+memory.json.broken
+
+# Логи и служебные файлы
+agent.log
+transcript.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
